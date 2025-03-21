@@ -10,7 +10,7 @@ import {HousingLocation} from '../housinglocation';
 })
 export class HousingLocationComponent 
   {
-    @input() housingLocation!: HousingLocation;
+    @Input() housingLocation!: HousingLocation;
   }
     
 
